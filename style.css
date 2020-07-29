@@ -18,13 +18,25 @@ nav ul {
     background-color: black;
     color: white;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
+    padding-top: 10px;
+    justify-content: center;
+    padding-top: 20px;
+    list-style: none;
+
+}
+
+nav ul h2 {
+    font-size: 2em;
+    color: white;
+
 }
 
 nav ul li {
     margin: 0 20px;
+}
+
+header div ul li .row {
+    flex-direction: row;
 }
 
 .bg1 {
@@ -52,16 +64,163 @@ header>div ul {
 
 .bg2 {
     background-image: url(/IMAGE/background2.png);
+    padding-bottom: 50px;
+}
+
+.bg2 div {
+    text-align: center;
+}
+
+.bg2 div {
+
+    padding-left: 340px;
+    padding-right: 340px;
+
+}
+
+.bg2 h2 {
+    color: white;
+    font-size: 4em;
+    padding-right: 100px;
+    padding-top: 35px;
+}
+
+.bg2 div h1 {
+    font-size: 9em;
+    color: white;
+    font-weight: 900;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.bg2 div>p {
+    color: white;
+    font-size: 1.8em;
+}
+
+.bg2 div h4 {
+    color: white;
+    font-size: 1.6em;
+    font-weight: 400;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.input {
+    width: 200px;
+    justify-content: space-around;
+}
+
+#in1 {
+    background-color: rgb(165, 35, 31);
+    height: 50px;
+    font-weight: 900;
+    color: white;
+    font-size: 1.5em;
+}
+
+#in2 {
+    background-color: #bd1189;
+    height: 50px;
+    font-weight: 900;
+    color: white;
+    font-size: 1.5em;
 }
 
 .bubble {
     background: white;
 }
 
+#home ul {
+    padding-left: 430px;
+    padding-right: 430px;
+    text-align: center;
+    list-style: none;
+}
+
+#home ul li {
+    font-size: 1.8em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#home ul h2 {
+    font-size: 4em;
+    font-weight: 600;
+}
+
+#home2 {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 90px;
+    font-size: 1.4em;
+    text-align: center;
+}
+
+#home2 article ul {
+    list-style: none;
+
+}
+
+#home2 article h4 {
+    font-size: 1.3em;
+    font-weight: 600;
+
+
+}
+
+#home2 article img,
+
+p {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+
+}
+
+.in {
+
+    height: 40px;
+    width: 180px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    cursor: pointer;
+    border-radius: 10%;
+    background: white;
+    font-size: 1.1em;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+#separate {
+    display: flex;
+}
+
 #bg3 div {
     background-image: url(/IMAGE/background.png);
 }
 
+#bg3 div h3 {
+    font-size: 5em;
+    font-weight: 900;
+    color: white;
+}
+
+#bg3 div p {
+    font-size: 1.8em;
+    color: white;
+    padding-right: 400px;
+    padding-left: 400px;
+}
+
+#bg3 div {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
 
 #bg4 div {
     background-color: white;
@@ -84,8 +243,35 @@ header>div ul {
     padding-bottom: 70px;
 }
 
-footer article {
+#foot div {
     background-color: white;
     display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+
+
+}
+
+#foot div article {
+    padding-left: 40px;
+    padding-right: 100px;
+}
+
+#foot div article h4 {
+    font-size: 2em;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+
+#foot div article ul li {
     list-style: none;
+    font-size: 1.8em;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+
+
+#foot {
+    margin-bottom: 10px;
+
 }
