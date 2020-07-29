@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 10px;
+    background: #edeef0;
+    background-image: url(/IMAGE/background2.png);
+
+}
+
+nav ul {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+.bg1 {
+
+    margin-top: 10px;
+    background: white;
+
+}
+
+
+
+header>div ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+
+}
+
+.heart {
+    align-self: start;
+}
+
+
+.bg2 {
+    background-image: url(/IMAGE/background2.png);
+}
+
+.bubble {
+    background: white;
+}
+
+#bg3 div {
+    background-image: url(/IMAGE/background.png);
+}
+
+
+#bg4 div {
+    background-color: white;
+    align-items: center;
+    font-size: 4em;
+    font-weight: 600;
+    color: black;
+    list-style: none;
+    padding-right: 420px;
+    padding-left: 420px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+#bg4 div>li {
+    text-align: center;
+}
+
+#bg4 div li {
+    padding-bottom: 70px;
+}
+
+footer article {
+    background-color: white;
+    display: flex;
+    list-style: none;
+}
