@@ -11,7 +11,7 @@
 <body>
   <nav>
     <ul>
-      <li><a href=""><img src="\IMAGE\logo.png" alt="" width="70"></a></li>
+      <li><a href=""><img src="\IMAGE\logo_4.png" alt="" width="70"></a></li>
       <li><a href="">
           <h2>npm is now a part of GitHub</h2>
         </a></li>
@@ -21,21 +21,28 @@
   <header class="bg1">
     <div id="black-heart-line">
       <ul>
-        <li class="row"><img src="\IMAGE\black-heart.png" alt="" width="35"></li>
-        <li class="row"><a href="">Now With Partition Management</a></li>
-        <li><a href="">Products</a></li>
-        <li><a href="">Pricing</a></li>
-        <li><a href="">Documentation</a></li>
-        <li><a href="">community</a></li>
+        <div id="row">
+          <li><img src="\IMAGE\black-heart.png" alt="" width="35"></li>
+          <li><a href="" class="remove-underline">Not-Printable Material</a></li>
+        </div>
+        <div id="row1">
+          <li><a href="" class="remove-underline">Products</a></li>
+          <li><a href="" class="remove-underline">Pricing</a></li>
+          <li><a href="" class="remove-underline">Documentation</a></li>
+          <li id="not-bold"><a href="" class="remove-underline">Community</a></li>
+        </div>
       </ul>
       <hr>
     </div>
-    <div>
+    <div class="header3">
       <ul>
-        <li><img src="\IMAGE\logo.png" alt=""></li>
-        <li><input type="text" placeholder="Search Packages"></li>
-        <li><input type="button" value="Sign Up"></li>
-        <li><a href="">Sing In</a></li>
+        <li><a href="#"><img src="\IMAGE\logo.png" alt=""></a></li>
+        <div id="header2">
+          <li class="sbox"><input id="search-box" type="text" placeholder="Search Packages"></li>
+          <li class="sbox"><input id="search-button" type="button" value="Search"></li>
+        </div>
+        <li><input id="sign-button" type="button" value="Sign Up"></li>
+        <li><a href="" class="remove-underline">Sign In</a></li>
       </ul>
     </div>
   </header>
@@ -45,8 +52,8 @@
       <p>We're npm, Inc., the company behind Node package manager, the npm Registry, and npm CLI. We offer those to the
         community for free, but our day job is building and selling useful tools for developers like you.</p>
       <h2>Take your JavaScript development up a notch</h2>
-      <h4>Get started today for free, or step up to npm Pro to enjoy a premium JavaScript development experience, with
-        features like private packages.</h4>
+      <p>Get started today for free, or step up to npm Pro to enjoy a premium JavaScript development experience, with
+        features like private packages.</p>
       <input class="input" id="in1" type="button" value="Sign up for free">
       <input class="input" id="in2" type="button" value="Learn about pro">
     </div>
@@ -66,38 +73,48 @@
     <div id="home2">
 
       <article>
-        <img src="\IMAGE\article1.png" alt="" />
+
+        <li><img src="\IMAGE\article1.png" alt="" /></li>
         <h4>npm Free</h4>
         <p>Become a contributing member of the open source JavaScript community.
           Create public packages, publish updates, audit your dependencies, and more.</p>
         <input class="in" type="button" value="LEARN MORE">
+
       </article>
       <article>
-        <ul id="separate">
+
+        <div id="img-position-in-second-article">
           <li><img src="\IMAGE\article2.png" alt="" /></li>
           <li><img src="\IMAGE\article5.png" alt="" /></li>
-        </ul>
+        </div>
+
+
         <h4>npm Pro & Teams</h4>
         <p>For next-level JavaScript developers who want more capabilities.
           Pro and Teams add the ability to build private packages for you, your team,
           or for customers.</p>
         <input class="in" type="button" value="LEARN MORE">
+
       </article>
       <article>
-        <img src="\IMAGE\article3.png" alt="" />
+
+        <li><img src="\IMAGE\article3.png" alt="" /></li>
         <h4>npm Enterprise</h4>
         <p>For very large teams and business-critical projects,
           npm Enterprise delivers features that organizations with hundreds of developers need,
           like SSO and enhanced security.</p>
         <input class="in" type="button" value="LEARN MORE">
+
       </article>
       <article>
-        <img src="\IMAGE\article4.png" alt="" />
+
+        <li><img src="\IMAGE\article4.png" alt="" /></li>
         <h4>npm PkgSafe</h4>
         <p>Our security team's unique insights into JavaScript
           vulnerabilities and threats are delivered as free and premium features,
           as well as services for resellers and others.</p>
         <input class="in" type="button" value="LEARN MORE">
+
       </article>
     </div>
   </section>
@@ -123,12 +140,11 @@
       <article>
         <h4>Help</h4>
         <ul>
-          <li>Documantation</li>
-          <li>Community</li>
-          <li>Case studies</li>
-          <li>Advisories</li>
-          <li>Status</li>
-          <li class="pad">Contact</li>
+          <li> <a href="" class="remove-underline">Documantation</a> </li>
+          <li> <a href="" class="remove-underline">Case studies</a> </li>
+          <li> <a href="" class="remove-underline">Advisories</a> </li>
+          <li> <a href="" class="remove-underline">Status</a> </li>
+          <li class="pad"> <a href="" class="remove-underline">Contact</a> </li>
         </ul>
       </article>
 
@@ -136,12 +152,11 @@
       <article>
         <h4>About</h4>
         <ul>
-          <li>Company</li>
-          <li>Blog</li>
-          <li>Careers</li>
-          <li>Webiners</li>
-          <li>press</li>
-          <li class="pad">Newsletter</li>
+          <li> <a href="" class="remove-underline"> Company</a></li>
+          <li> <a href="" class="remove-underline"> Blog</a></li>
+          <li> <a href="" class="remove-underline">Careers</a> </li>
+          <li> <a href="" class="remove-underline">Webiners</a> </li>
+          <li> <a href="" class="remove-underline">Newsletter</a> </li>
         </ul>
       </article>
 
@@ -149,10 +164,10 @@
       <article>
         <h4>Terms & Policies</h4>
         <ul>
-          <li>Policies</li>
-          <li>Terms of use</li>
-          <li>Code of conduct</li>
-          <li class="pad">Privacy</li>
+          <li> <a href="" class="remove-underline">Policies</a> </li>
+          <li> <a href="" class="remove-underline">Terms of use</a> </li>
+          <li> <a href="" class="remove-underline">Code of conduct</a> </li>
+          <li class="pad"> <a href="" class="remove-underline">Privacy</a> </li>
         </ul>
       </article>
 
